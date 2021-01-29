@@ -5,7 +5,8 @@ var AttendanceSchema   = new Schema({
     title: {type: String, required: true},
     allDay: {type: Boolean, required: true},
     start: {type: Date,required:true},
-    end: {type:Date,required:true}
+    end: {type:Date,required:true},
+    subject_name:{type: String,required:true},
 });
 
 module.exports = mongoose.model('Attendance', AttendanceSchema);
