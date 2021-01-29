@@ -22,7 +22,9 @@ exports.getallrecords = function(req, res) {
                 "title":records[i].title,
                 "allDay":records[i].allDay,
                 "start":records[i].start,
-                "end":records[i].end
+                "end":records[i].end,
+                "subject_name":records[i].subject_name,
+
               }
             )
           }
@@ -50,7 +52,8 @@ exports.getbymonth = function(req,res){
                 "title":records[i].title,
                 "allDay":records[i].allDay,
                 "start":records[i].start,
-                "end":records[i].end
+                "end":records[i].end,
+                "subject_name":records[i].subject_name,
               }
             )
           }
@@ -72,7 +75,8 @@ exports.getbydate = function(req,res){
                 "title":records[i].title,
                 "allDay":records[i].allDay,
                 "start":records[i].start,
-                "end":records[i].end
+                "end":records[i].end,
+                "subject_name":records[i].subject_name,
               }
             )
           }
