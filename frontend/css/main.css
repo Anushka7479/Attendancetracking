@@ -7,11 +7,13 @@
   justify-content: center;
 }
 .instructions{
-  width:25%;
+  widows: 2px;;
 }
 .title{
   width:50%;
   text-align: center;
+  font-size: 1em;
+  font-size: x-large;
 }
 .report{
   width: 25%;
@@ -53,5 +55,4 @@
     border: 1px solid #ccc;
     border-collapse: collapse;
     border-radius: 6px;
-    width: 100%;
 }
